@@ -1,11 +1,10 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
     <div className="">
+      <Header />
       <h1>Hello stream</h1>
-      <Button>Click me</Button>
       </div>
   );
 }
